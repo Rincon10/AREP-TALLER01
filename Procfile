@@ -1,1 +1,1 @@
-web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.SparkWebApp
+web: java $JAVA_OPS -cp target/classes;target/dependency/* edu.escuelaing.arep.SparkWebApp
